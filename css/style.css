@@ -59,6 +59,7 @@ body {
   text-align: left;
   background-color: #fff; }
 
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -165,6 +166,7 @@ figure {
   margin: 0 0 1rem; }
 
 img {
+  height: 100px;
   vertical-align: middle;
   border-style: none; }
 
@@ -3486,6 +3488,10 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
+
+  .navbar_imp{
+    background-color: black !important;
+  }
 
 .navbar-collapse {
   -ms-flex-preferred-size: 100%;
